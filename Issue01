@@ -1,0 +1,25 @@
+Title:
+In Date/Time field button Hoy is not available.
+
+User stories:
+As a user, I want to be able to click the button HOY, so I can select the actual
+date.
+
+Description:
+When the user open the calendar he or she see that
+the actual date is selected for example today, but whe the user select
+a day before on the same month the button HOY is not available of reason.
+
+Steps to reproduce
+    1. Open the Application.
+    2. On the top select Urgency
+    3. Select a patient.
+    4. Go to Hoja SOAPE and click Anadir.
+    5. In the Anadir button select Diagnostics.
+    6. In Buscador diagnosticos codificados add TUMOR MALIGNO DE LA CABEZA, CARA Y CUELLO.
+    7. In Gestor de diagnosticos click button Editar.
+    8. Click on Fecha de aviso.
+    9. On Date/Time field select a date before the actual date.
+
+    Actual result: The button HOY is not available for the user.
+    Expected result: The button HOY should be able for the user.
