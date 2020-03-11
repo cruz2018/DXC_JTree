@@ -1,0 +1,24 @@
+Title: In Curso Clinico, the window does not support too many Objects (Fatores de riesgo)
+--------------------------------------------------------------------------
+User stories:
+As a user, I want to be able to add so many Fatores de riesgo
+so I can continue with registration.
+--------------------------------------------------------------------------
+Description:
+When the user add many Fatores de riesgo, he or she get all the elements in the Curso Clinico.
+What happen is that when the elements appear the list in Curso Clinico, the list is cut off.
+The problem may be on the JTree
+--------------------------------------------------------------------------
+Steps to reproduce
+    1. Open the Application.
+    2. Go to Urgencias.
+    3. Select a patient.
+    4. Then Click Nueva.
+    5. Click Anadir.
+    6. Select Anamnesis then select Fatores de riesgo then click Buscador.
+    7. Select all elements in the list from Buscador.
+    8. Click button Aceptar.
+    9. then click button Cerrar.
+
+    Actual result: The elements inside the list are disfigured
+    Expected result: The user should see all elements from the list inside the JTree objects in the place.
